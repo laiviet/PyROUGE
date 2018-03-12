@@ -12,7 +12,7 @@ Configure pyrouge
 ```
 cd $HOME
 mkdir .pyrouge
-cat "pyrouge settings]\
+echo "[pyrouge settings]\
 home_dir = ``pwd``/.PyROUGE/" > $HOME/.pyrouge/settings.ini
 ```
 
