@@ -12,8 +12,8 @@ Configure pyrouge
 ```
 cd $HOME
 mkdir .pyrouge
-echo "[pyrouge settings]\
-home_dir = ``pwd``/.PyROUGE/" > $HOME/.pyrouge/settings.ini
+echo "[pyrouge settings]" > $HOME/.pyrouge/settings.ini
+echo "home_dir = $(pwd)/.PyROUGE/" >> $HOME/.pyrouge/settings.ini
 ```
 
 
