@@ -1,6 +1,16 @@
+
+
+
 # Installation guide for pyrouge
 
-Clone this repository
+
+## Dependencies
+
+```
+cpan install XML::DOM
+```
+
+## Clone this repository
 
 ```
 cd $HOME
@@ -8,7 +18,7 @@ git clone https://github.com/laiviet/PyROUGE.git
 mv PyROUGE .PyROUGE
 ```
 
-Configure pyrouge
+## Configure pyrouge
 ```
 cd $HOME
 mkdir .pyrouge
